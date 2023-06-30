@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIRIN'S STUDIO</title>
+    <style>
+        body {
+            background: radial-gradient(pink, darkblue, orange);
+        }
+        
+        .container {
+            border: none;
+            background: green;
+            width: 1366px;
+            height: 100px;
+            top: 0;
+            left: 0;
+            position: fixed;
+        }
+        
+        .logo img {
+            width: 150px;
+            height: 100px;
+            background: red;
+            float: left;
+        }
+        
+        .heading h2 {
+            color: white;
+            text-align: justify;
+            width: 300px;
+            height: 100px;
+            background: ;
+            float: left;
+            margin-top: 20px;
+            margin-left: 180px;
+        }
+        
+        .navbar {
+            position: relative;
+            width: 700px;
+            height: 100px;
+            background: ;
+            float: left;
+            margin-left: 20px;
+        }
+        
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+        
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar ul li a {
+            float: left;
+            padding: 10px;
+            margin-left: 50px;
+            margin-top: 30px;
+            background: orange;
+            border-radius: 10px;
+            transition-duration: 1s;
+        }
+        
+        .navbar ul li a:hover {
+            background: blue;
+            color: #f8f9f9;
+        }
+        
+        @media screen and (max-width: 480px) {
+            .navbar {
+                position: fixed;
+                top: -6%;
+                width: 100vw;
+            }
+            .navbar ul li a {
+                display: none;
+            }
+            .heading h2 {
+                margin-left: 50px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="female-images/female29.png">
+        </div>
+        <div class="heading">
+            <h2>MIRIN'S BARBERSHOP</h2>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">GALLERY</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
